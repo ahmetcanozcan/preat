@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib/",
+    "declaration": true,
+    "noImplicitAny": true,
+    "module": "commonJS",
+    "target": "es6",
+    "declarationMap": true,
+    "allowJs": true,
+    "moduleResolution": "node"
+  },
+  "include": ["./src/"],
+  "exclude": ["webpack.config.js"]
+}

@@ -1,0 +1,5 @@
+/lib/
+/dist/
+.vscode/
+test_project/
+node_modules/

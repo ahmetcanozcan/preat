@@ -1,0 +1,18 @@
+<input type="text" id="inp" />
+<p id="info"></p>
+<script src="https://unpkg.com/preat@0.1.2/dist/main.js"></script>
+<script>
+  new preat.Variable("lorem ipsum")
+    .setName("infoText")
+    .hook({
+      el: "#info",
+      template: "MSG:{{value}}",
+    })
+    .bind("#inp")
+    .seat();
+
+  console.log(infoText); // lorem ipsum
+  // whenever infoText is changed, p#info will be changed
+  // value  of input can be accesable by infoText variable
+  // and infoText can be manipulated by input#inp
+</script>

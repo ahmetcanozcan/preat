@@ -1,0 +1,30 @@
+{
+  "name": "preat",
+  "version": "0.1.2",
+  "description": "Reactiveness in easy way",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve",
+    "build": "tsc"
+  },
+  "keywords": [
+    "reactive",
+    "frontend",
+    "simple"
+  ],
+  "author": "Ahmetcan ÖZCAN <ahmetcanozcan7@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/hogan.js": "^3.0.0",
+    "@types/mustache": "^4.1.1",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "hogan.js": "^3.0.2"
+  }
+}

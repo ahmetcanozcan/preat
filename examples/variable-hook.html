@@ -1,0 +1,17 @@
+<p id="info"></p>
+<script src="https://unpkg.com/preat@0.1.2/dist/main.js"></script>
+<script>
+  new preat.Variable("lorem ipsum")
+    .setName("infoText")
+    .hook({
+      el: "#info",
+      template: "MSG:{{value}}",
+    })
+    .seat();
+
+  console.log(infoText); // lorem ipsum
+  // whenever infoText is changed, p#info will be changed
+  setTimeout(() => {
+    infoText = "Changed text";
+  }, 1500);
+</script>
